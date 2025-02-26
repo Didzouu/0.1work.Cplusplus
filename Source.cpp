@@ -4,43 +4,55 @@ using namespace std;
 
 void main()
 {
-	//cout << "I have many pencils \n";
-	//cout << "I have many pencils\n";
-	//cout << "Red and green and blue.\n";
-	//cout << "I can draw a picture\n";
-	//cout << "And give it to you.\n";
-	//cout << "I can draw my mother,\n";
-	//cout << "I can draw my father\n";
-	//cout << "I can draw my sister\n";
-	//cout << "And my little brother\n";
-	//cout << "i am autor\n";
 
-	//cout << "Every\n hunter\n\t wants\n\t\t to\n\t\t\t know\n\t\t\t\t where\n\t\t\t\t\t the\n\t\t\t\t\t pheasant\n\t\t\t\t\t\t is.";
+    //float side1;
+    //cout << "Enter side1 : ";
+    //cin >> side1;
+    //float side2;
+    //cout << "Enter side2 : ";
+    //cin >> side2;
+    //float side3;
+    //cout << "Enter side3 : ";
+    //cin >> side3;
 
-
-	//cout << "I will sell a chest of drawers\n";
-	//cout << "colic brown\n";
-	//cout << "phone: 067 - 992 - 94 - 00\n";
-	//cout << "legth |1.5/0.5m|\n";
-	//cout << "height |1m|\n";
-	//cout << "the number of bedside tables |4|\n";
-
-	//int diagonal;
-	//float Dyim = 2.54;
-	//cout << "diagonal : ";
-	//cin >>diagonal;
-	//cout << "diagonal = " <<diagonal * Dyim << endl;
+    //if (side1 == side2 && side2 ==side3 && side3 == side1)
+    //{
+    //    cout << "right triangle";
+    //}
+    //else if ((side1 * side1 + side2 * side2 == side3 * side3) || (side2 * side2 + side3 * side3 == side3 * side1 )|| (side1 * side1 + side3 * side3 == side3 * side3))
+    //{
+    //    cout << "right rectangular";
+    //}
+    //else if ((side1 == side2 != side3) || (side3 == side2 != side1) || (side3 == side1 !=side2))
+    //{
+    //    cout << "right isosceles";
+    //}
 
 
-	float g;
-	int Deis = 30;
-	float kg = 1000;
-	cout << "g : ";
-	cin >> g;
-	cout << "g = " << g * Deis / kg << endl;
+
+    float height_brick;
+    cout << "Enter height_brick : ";
+    cin >>height_brick;
+    float width_brick;
+    cout << "Enter width_brick : ";
+    cin >> width_brick;
+
+    float height_a_hole;
+    cout << "Enter height_a hole : ";
+    cin >> height_a_hole;
+    float width_a_hole;
+    cout << "Enter width_a_hole : ";
+    cin >> width_a_hole;
+
+
+    if (height_brick * width_brick < height_a_hole * width_a_hole)
+    {
+        cout << "the brick will fit into the hole";
+    }
+    if (height_brick * width_brick > height_a_hole * width_a_hole)
+    {
+        cout << "the brick will not fit into the hole";
+    }
+
 
 }
-
-
-
-
