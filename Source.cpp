@@ -4,55 +4,76 @@ using namespace std;
 
 void main()
 {
+	//float number = 1;
+	//while (number !=101)
+	//{
+	//	cout << number<<"|";
+	//	number ++ ;
+	//}
 
-    //float side1;
-    //cout << "Enter side1 : ";
-    //cin >> side1;
-    //float side2;
-    //cout << "Enter side2 : ";
-    //cin >> side2;
-    //float side3;
-    //cout << "Enter side3 : ";
-    //cin >> side3;
 
-    //if (side1 == side2 && side2 ==side3 && side3 == side1)
-    //{
-    //    cout << "right triangle";
-    //}
-    //else if ((side1 * side1 + side2 * side2 == side3 * side3) || (side2 * side2 + side3 * side3 == side3 * side1 )|| (side1 * side1 + side3 * side3 == side3 * side3))
-    //{
-    //    cout << "right rectangular";
-    //}
-    //else if ((side1 == side2 != side3) || (side3 == side2 != side1) || (side3 == side1 !=side2))
-    //{
-    //    cout << "right isosceles";
-    //}
+	//int number = 1;
+	//while (number !=201 )
+	//{
+	//	if (number % 2 == 0)	
+	//	{
+	//		cout << number << "|"; 
+	//	}
+	//	number++;
+	//}
 
 
 
-    float height_brick;
-    cout << "Enter height_brick : ";
-    cin >>height_brick;
-    float width_brick;
-    cout << "Enter width_brick : ";
-    cin >> width_brick;
+	//int caunt_number ;
+	//cout << "Enter caunt_number  ";
+	//cin >> caunt_number;
+	//int i = 0;
+	//int number;
+	//int sum = 0;
 
-    float height_a_hole;
-    cout << "Enter height_a hole : ";
-    cin >> height_a_hole;
-    float width_a_hole;
-    cout << "Enter width_a_hole : ";
-    cin >> width_a_hole;
+	//while (i < caunt_number)
+	//{
+	//	cout << "enter_number | ";
+	//	cin >> number;
+	//	if (number % 2 == 0)
+	//	{
+	//		sum += number;
+	//	}
+	//	
+	//	i++;
+	//	
+	//}
+	//cout << sum;
 
 
-    if (height_brick * width_brick < height_a_hole * width_a_hole)
-    {
-        cout << "the brick will fit into the hole";
-    }
-    if (height_brick * width_brick > height_a_hole * width_a_hole)
-    {
-        cout << "the brick will not fit into the hole";
-    }
 
+	//int caunt_number = 10;
+	//int i = 0;
+	//int number;
+	//int sum = 0;
+
+	//while (i < caunt_number)
+	//{
+	//	cout << "enter_number | ";
+	//	cin >> number;
+	//	sum += number;
+	//	i++;
+
+	//	
+	//}
+	//cout << sum << "\n";
+	//cout << (float) sum / caunt_number;
+
+
+
+	int number = 1;
+	while (number != 100)
+	{
+		if (number <= 1)
+		{
+			cout << number << "|";
+		}
+		number--;
+	}
 
 }
